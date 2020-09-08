@@ -55,7 +55,7 @@ data['authkey'] = authkey
 
 data = json.dumps(data)
 
-response = requests.post(http://192.168.2.100:8888/xlog/meta, data=data).text
+response = requests.post("http://192.168.2.100:8888/xlog/meta", data=data).text
 print(response)
 ```
 
