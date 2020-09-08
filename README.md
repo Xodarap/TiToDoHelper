@@ -5,7 +5,6 @@ Android TikTok / Douyin helper app.
 ```python
 import requests
 import json
-import base64
 
 authkey = 'xxx'
 
