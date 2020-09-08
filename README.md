@@ -45,6 +45,18 @@ data['proxy'] = ""
 
 response = requests.post("http://192.168.2.100:8888/device/register", data=json.dumps(data)).text
 print(response)
+
+# xLog
+
+data = {}
+data['id'] = str(action)
+data['key'] = str(key)
+data['authkey'] = authkey
+
+data = json.dumps(data)
+
+response = requests.post(http://192.168.2.100:8888/xlog/meta, data=data).text
+print(response)
 ```
 
 # Services
